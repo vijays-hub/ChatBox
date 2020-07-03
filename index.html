@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBox</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- jQuery Library -->
+    <script src="jquery-3.4.1.min.js"> </script>
+
+    <!-- JavaScript Source -->
+    <script src="chatScript.js"></script>
+
+    <link rel="stylesheet" href="chatStyle.css">
+  
+</head>
+<body>
+  <h3 style="font-family: Raleway; margin-bottom: -50px; text-align: center; box-shadow: 1px 5px 10px black; text-shadow: 1px 1px 20px purple;">Simple Chat Box </h3>
+  <span> <img src="_.winning._.looser._.jpg" alt="" style="height: 30px; margin-left: 128px; margin-bottom: -160px;"> </span> 
+  <span> <img src="akshatha.chawan.png" alt="" style="height: 30px; margin-left: 633px; margin-bottom: -160px;"> </span>
+  
+  <div style="margin-top: 50px;">
+  </div>
+  <div id="head1">
+    <h2 class="headTag" style=" padding-left: 50px;  font-size: 17px; ">_.winning._.looser._  <span id="lastSeen"> Last Active: </span><span class="lastSeen1"></span></h2>  
+  </div>
+  <div id="head2">
+    <h2 class="headTag" style="padding-left: 50px;  font-size: 16px;">akshatha.chawan <span id="lastSeen2"> Last Active: </span><span class="lastSeen2"></span></h2>
+  </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-5" id="firstBox">
+            <div style="height: 30px;">
+
+            </div>
+            <hr class="hrLine">
+          </div>
+          <div class="col-sm-2" ></div>
+          <div class="col-sm-5" id="secondBox">
+            <div style="height: 30px;">
+
+            </div>
+            <hr class="hrLine">
+          </div>
+        </div>
+      </div>
+      
+      <div id="first">
+        <input class="chatInput1" id="firstBoxInput" type="text" placeholder="Jot Something Down!">
+        <input class="sendIcon1" type="image" src="_Chat_paper_plane_send_sent_-512.png" alt="Send" title="Send" height="30px" style="margin-bottom: -5px; margin-left: -38px; border-radius: 10%;">
+      </div>
+
+      <div id="second">
+        <input class="chatInput2" id="secondBoxInput" type="text" placeholder="Jot Something Down!">
+        <input class="sendIcon2" type="image" src="_Chat_paper_plane_send_sent_-512.png" alt="Send" title="Send" height="30px" style="margin-bottom: -5px; margin-left: -38px; border-radius: 10%;" type="reset">
+      </div>
+
+</body>
+</html>
